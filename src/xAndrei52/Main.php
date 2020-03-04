@@ -6,11 +6,9 @@ use\pocketmine\Server;
 use\pocketmine\Player;
 use\pocketmine\PluginBase;
 
-class Main {
-
 use\pocketmine\command{Command, CommandSender};
 
-class Main extends PluginBase{
+class Cure extends PluginBase{
 
      public function onEnable(){
      }
