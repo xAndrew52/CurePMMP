@@ -1,6 +1,8 @@
 <?php
 
-namespace Cure;
+declare(strict_types=1);
+
+namespace xAndrei52\Cure;
 
 use\pocketmine\Server;
 use\pocketmine\Player;
@@ -8,7 +10,7 @@ use\pocketmine\PluginBase;
 
 use\pocketmine\command{Command, CommandSender};
 
-class Cure extends PluginBase{
+class Main extends PluginBase{
 
      public function onEnable(){
      }
